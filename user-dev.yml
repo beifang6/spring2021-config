@@ -18,3 +18,6 @@ mybatis:
     #驼峰转换
     map-underscore-to-camel-case: true
 
+config: 
+  test: 
+    version: 1
