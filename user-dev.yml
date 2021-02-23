@@ -19,4 +19,4 @@ mybatis:
     map-underscore-to-camel-case: true
 
 config: 
-  version: 1
+  version: 2
