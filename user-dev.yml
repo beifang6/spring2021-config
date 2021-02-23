@@ -20,6 +20,12 @@ spring:
       discovery:
         service-name: ${spring.application.name}
 
+    config:
+      label: master   #分支名称
+      name: user      #配置文件名称
+      profile: dev    #读取后缀
+      uri: config-service-2021  #配置中心地址
+
 
 
 mybatis:
